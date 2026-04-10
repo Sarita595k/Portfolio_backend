@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 
 app.use('/api', router)
 
-app.listen(3000, () => {
+app.listen(5000, () => {
     connectToDb()
     console.log("server is running on port 3000")
 })
